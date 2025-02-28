@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Document Scanner</h1>
+        <nav><button onclick="logout()">Logout</button></nav>
+    </header>
+    <main>
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Credits: <span id="credits">0</span></p>
+            <p>Past Scans: <span id="pastScans">None</span></p>
+            <p>Credit Requests: <span id="creditRequests">None</span></p>
+            <button onclick="requestCredits()">Request Credits</button>
+            <button onclick="exportReport()">Export Scan History</button>
+        </section>
+        <section id="scanner">
+            <h2>Scan Document</h2>
+            <input type="file" id="docUpload" accept=".txt">
+            <button onclick="scanDocument()">Scan</button>
+            <div id="matches"></div>
+        </section>
+    </main>
+    <script src="client.js"></script>
+</body>
+</html>
