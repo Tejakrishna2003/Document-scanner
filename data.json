@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "username": "tejakrishna",
+      "password": "dGVqYQ==",
+      "credits": 37,
+      "scans": [
+        "1740635412030",
+        "1740642032730",
+        "1740657391994"
+      ],
+      "role": "user",
+      "creditsUsed": 2
+    },
+    {
+      "username": "admin",
+      "password": "YWRtaW4xMjM=",
+      "credits": 20,
+      "scans": [],
+      "role": "admin"
+    },
+    {
+      "username": "test",
+      "password": "dGVzdDEyMw==",
+      "credits": 20,
+      "scans": [],
+      "role": "admin"
+    }
+  ],
+  "documents": [
+    {
+      "id": "1740635412030",
+      "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /user/export</pre>\n</body>\n</html>\n",
+      "username": "tejakrishna",
+      "timestamp": "2025-02-27T05:50:12.030Z"
+    },
+    {
+      "id": "1740642032730",
+      "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /user/export</pre>\n</body>\n</html>\n",
+      "username": "tejakrishna",
+      "timestamp": "2025-02-27T07:40:32.730Z"
+    },
+    {
+      "id": "1740657391994",
+      "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /user/export</pre>\n</body>\n</html>\n",
+      "username": "tejakrishna",
+      "timestamp": "2025-02-27T11:56:31.994Z"
+    }
+  ],
+  "creditRequests": [],
+  "activityLogs": [
+    {
+      "username": "tejakrishna",
+      "action": "login",
+      "timestamp": "2025-02-27T07:40:24.839Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "scan",
+      "docId": "1740642032730",
+      "timestamp": "2025-02-27T07:40:32.730Z"
+    },
+    {
+      "username": "admin",
+      "action": "login",
+      "timestamp": "2025-02-27T07:41:02.777Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "adjust_credits",
+      "amount": 10,
+      "timestamp": "2025-02-27T07:41:35.637Z"
+    },
+    {
+      "username": "admin",
+      "action": "login",
+      "timestamp": "2025-02-27T11:53:23.356Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "login",
+      "timestamp": "2025-02-27T11:54:41.815Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "request_credits",
+      "amount": 10,
+      "timestamp": "2025-02-27T11:54:48.118Z"
+    },
+    {
+      "username": "admin",
+      "action": "login",
+      "timestamp": "2025-02-27T11:55:28.109Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "deny_credits",
+      "amount": 0,
+      "timestamp": "2025-02-27T11:55:34.567Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "login",
+      "timestamp": "2025-02-27T11:56:07.277Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "scan",
+      "docId": "1740657391994",
+      "timestamp": "2025-02-27T11:56:31.994Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "login",
+      "timestamp": "2025-02-28T11:40:25.169Z"
+    },
+    {
+      "username": "admin",
+      "action": "login",
+      "timestamp": "2025-02-28T11:40:46.326Z"
+    }
+  ]
+}
