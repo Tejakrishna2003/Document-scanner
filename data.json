@@ -3,21 +3,26 @@
     {
       "username": "tejakrishna",
       "password": "dGVqYQ==",
-      "credits": 37,
+      "credits": 35,
       "scans": [
         "1740635412030",
         "1740642032730",
-        "1740657391994"
+        "1740657391994",
+        "1740743398647",
+        "1740743471287"
       ],
       "role": "user",
-      "creditsUsed": 2
+      "creditsUsed": 4
     },
     {
       "username": "admin",
       "password": "YWRtaW4xMjM=",
       "credits": 20,
-      "scans": [],
-      "role": "admin"
+      "scans": [
+        "1740743377768"
+      ],
+      "role": "admin",
+      "creditsUsed": 1
     },
     {
       "username": "test",
@@ -45,6 +50,24 @@
       "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /user/export</pre>\n</body>\n</html>\n",
       "username": "tejakrishna",
       "timestamp": "2025-02-27T11:56:31.994Z"
+    },
+    {
+      "id": "1740743377768",
+      "text": "Terry was late for the bus.",
+      "username": "admin",
+      "timestamp": "2025-02-28T11:49:37.768Z"
+    },
+    {
+      "id": "1740743398647",
+      "text": "Terry was late for the bus.",
+      "username": "tejakrishna",
+      "timestamp": "2025-02-28T11:49:58.647Z"
+    },
+    {
+      "id": "1740743471287",
+      "text": "I am the new boss of this company.",
+      "username": "tejakrishna",
+      "timestamp": "2025-02-28T11:51:11.287Z"
     }
   ],
   "creditRequests": [],
@@ -118,6 +141,34 @@
       "username": "admin",
       "action": "login",
       "timestamp": "2025-02-28T11:40:46.326Z"
+    },
+    {
+      "username": "admin",
+      "action": "login",
+      "timestamp": "2025-02-28T11:49:29.806Z"
+    },
+    {
+      "username": "admin",
+      "action": "scan",
+      "docId": "1740743377768",
+      "timestamp": "2025-02-28T11:49:37.769Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "login",
+      "timestamp": "2025-02-28T11:49:53.877Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "scan",
+      "docId": "1740743398647",
+      "timestamp": "2025-02-28T11:49:58.647Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "scan",
+      "docId": "1740743471287",
+      "timestamp": "2025-02-28T11:51:11.287Z"
     }
   ]
 }
