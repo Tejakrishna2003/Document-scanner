@@ -3,16 +3,18 @@
     {
       "username": "tejakrishna",
       "password": "dGVqYQ==",
-      "credits": 35,
+      "credits": 33,
       "scans": [
         "1740635412030",
         "1740642032730",
         "1740657391994",
         "1740743398647",
-        "1740743471287"
+        "1740743471287",
+        "1741336920476",
+        "1741336944709"
       ],
       "role": "user",
-      "creditsUsed": 4
+      "creditsUsed": 6
     },
     {
       "username": "admin",
@@ -68,6 +70,18 @@
       "text": "I am the new boss of this company.",
       "username": "tejakrishna",
       "timestamp": "2025-02-28T11:51:11.287Z"
+    },
+    {
+      "id": "1741336920476",
+      "text": "Terry was late for the bus.",
+      "username": "tejakrishna",
+      "timestamp": "2025-03-07T08:42:00.476Z"
+    },
+    {
+      "id": "1741336944709",
+      "text": "I am the new boss of this company.",
+      "username": "tejakrishna",
+      "timestamp": "2025-03-07T08:42:24.709Z"
     }
   ],
   "creditRequests": [],
@@ -169,6 +183,28 @@
       "action": "scan",
       "docId": "1740743471287",
       "timestamp": "2025-02-28T11:51:11.287Z"
+    },
+    {
+      "username": "admin",
+      "action": "login",
+      "timestamp": "2025-03-07T08:40:10.948Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "login",
+      "timestamp": "2025-03-07T08:41:19.022Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "scan",
+      "docId": "1741336920476",
+      "timestamp": "2025-03-07T08:42:00.476Z"
+    },
+    {
+      "username": "tejakrishna",
+      "action": "scan",
+      "docId": "1741336944709",
+      "timestamp": "2025-03-07T08:42:24.709Z"
     }
   ]
 }
