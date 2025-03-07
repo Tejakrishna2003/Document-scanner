@@ -20,7 +20,7 @@ THIS REFERS TO ADMIN PAGE
 
 This is user page 
 
-![Profile](Userspage)
+![Profile](Userspage.png)
 
 Comparing the text.
 
