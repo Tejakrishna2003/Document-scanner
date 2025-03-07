@@ -16,16 +16,16 @@ npm start
 
 THIS REFERS TO ADMIN PAGE 
 
-![Admin Page] (Adminpage.png)
+![Admin Page](Adminpage.png)
 
 This is user page 
 
-![Profile] (Userspage)
+![Profile](Userspage)
 
 Comparing the text.
 
-![Text1] (text1check.png)
+![Text1](text1check.png)
 
 Comparing the text.
 
-![Text2] (text2check.png)
+![Text2](text2check.png)
